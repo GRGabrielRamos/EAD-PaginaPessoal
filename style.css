@@ -1,0 +1,88 @@
+/* Estilos gerais */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #FFFDE4, #FFA07A, #2C3E50);
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    width: 90%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(180deg, #FFCF71, #FF9F45, #FFA07A);
+    color: #333;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+section {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Sobre Mim */
+.sobre-mim {
+    background-color: #e0f7fa;
+    border: 1px solid #b2ebf2;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.galeria {
+    text-align: center;
+}
+
+.galeria h2 {
+    margin-bottom: 10px;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-galeria img {
+    width: 220px;
+    height: 140px;
+    border: 1px solid #8a8989;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.grid-galeria img:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+footer {
+    background: linear-gradient(180deg, #2C3E50, #34495E, #1C2833);
+    color: #FFF;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
